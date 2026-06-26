@@ -1,0 +1,15 @@
+"./button.o"
+"./empty.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./servo.o"
+"./track.o"
+"./uart.o"
+"./driver/delay.o"
+"./driver/gray_sensor.o"
+"./driver/interrupt.o"
+"./driver/motor.o"
+"./driver/oled.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
